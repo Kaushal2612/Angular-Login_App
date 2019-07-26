@@ -1,0 +1,24 @@
+// to check angular version -> ng v
+// to create component -> ng g c component_name
+// to start a service -> ng serve
+// to create class -> ng g class class_name
+// to generate a service component -> ng g service service_name(without at the end service)
+
+// ng-model is also called directives used for enhancing the functionality of particular element. 2 way binding
+
+
+
+// Flow showing how our service will load
+First server will go Index.html
+Inside index.html, the mentioned tag's component it will load. Ex-app-login
+Now it will search in all component.ts where app-login is present i.e. in @component and go to link mentioned in templateUrl
+and this continues
+
+Bootstrap saves the entry point of the app mentioned in the app.module.ts
+
+// 1-way binding -> data can only flow in one direction i.e. S2C / C2S Ex. to print title - {{title}}
+// 2-way binding -> data flow in both direction S2C and C2S. Module used FormsModule
+
+resposibiltity of service? - to provide api
+
+// Angular JS TypeScript - 9220586270 santosh-lalchand.yadav@db.com. He is part of angular community.
